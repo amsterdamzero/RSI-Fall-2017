@@ -35,7 +35,7 @@
 						<tr>
 							<th>Location</th>
 							<th>Temperature</th>
-                            <th>Feels like</th>
+                            				<th>Feels like</th>
 							<th>Weather Icon</th>
 							<th>Conditions</th>
 							<th>Wind</th>
@@ -65,7 +65,7 @@
 						<tr>
 							<th>Location</th>
 							<th>Temperature</th>
-                            <th>Feels like</th>
+                            				<th>Feels like</th>
 							<th>Weather Icon</th>
 							<th>Conditions</th>
 							<th>Wind</th>
@@ -147,7 +147,7 @@ function getRegionalWeather(){
 		//set the value with data from our json object
 		buildHTML += "<td><b>" + location + "</b></td>";
 		buildHTML += "<td>" + temp_f + " &#8457;</td>";
-        buildHTML += "<td>" + feels_like + "</td>";
+        	buildHTML += "<td>" + feels_like + "</td>";
 		buildHTML += "<td><img src='" + icon + "'></td>";
 		buildHTML += "<td>" + weather + "</td>";
 		buildHTML += "<td>" + wind + "</td>";
@@ -201,7 +201,7 @@ function getNationalWeather(){
 		//set the value with data from our json object
 		buildHTML += "<td><b>" + location + "</b></td>";
 		buildHTML += "<td>" + temp_f + "</td>";
-        buildHTML += "<td>" + feels_like + "</td>";
+        	buildHTML += "<td>" + feels_like + "</td>";
 		buildHTML += "<td><img src='" + icon + "'></td>";
 		buildHTML += "<td>" + weather + "</td>";
 		buildHTML += "<td>" + wind + "</td>";
